@@ -1,0 +1,159 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body {background-color: coral;}
+p.a {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p.b {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  color: rgb(26, 255, 0); /* Naam van de kleur */
+}
+body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: red;
+}
+
+a:link{
+  color: #37db34;
+}
+
+a:hover {
+  background-color: yellow;
+  font-size: 14px;
+}
+
+
+body {
+  text-align: center;
+}
+
+.tiledBackground {
+  background-image: url("bestandenvoorles4/images-4.jpeg");
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+  border: 20px solid;
+  color: rgb(192, 255, 210);
+}
+
+body {    
+    display: grid;
+    grid-template-columns: 20vw 15vw 15vw 15vw 15vw 20vw;
+    grid-template-rows: 10vh 20vh 20vh 20vh 20vh 10vh;
+}
+#SmitAdela {
+  grid-column: 1 / 7;
+  grid-row: 1 / 4;
+}
+#contactinformatie {
+  font-weight: bold;
+}
+.menu-item {
+  background-color: rgb(255,0,255);
+}
+.menu-item:hover {
+  background-color: rgb(0,0,255);
+}
+.menu-item{
+  color: rgb(248, 0, 0);
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+.div {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.Werner1 {
+  background-image: url("bestandenvoorles4/hq720.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border: 20px solid;
+}
+.Werner2 {
+  background-image: url("bestandenvoorles4/images-6.jpeg");
+  background-size: cover;
+  width: 300px;
+  height: 600px;
+  border: 20px dashed;
+}
+body {    
+    display: grid;
+    grid-template-columns: 20vw 15vw 15vw 15vw 15vw 20vw;
+    grid-template-rows: 10vh 45vh auto;
+}
+
+#nav {
+    background-color: rgb(0, 255, 89);
+    grid-column: 1 / 7;
+    grid-row: 1 / 2;
+}
+#storyleft {
+    background-color: blue;
+    grid-column: 2 / 7;
+    grid-row: 1 / 2;
+}
+#storyright {
+    background-color: rgb(255, 179, 0);
+    grid-column: 3 / 7;
+    grid-row: 1 / 2;
+}
+#article1 {
+    background-color: rgb(0, 225, 255);
+    grid-column: 4 / 7;
+    grid-row: 1 / 2;
+}
+#article2 {
+    background-color: rgb(0, 187, 255);
+    grid-column: 5 / 7;
+    grid-row: 1 / 2;
+}
+#article3 {
+    background-color: rgb(255, 0, 191);
+    grid-column: 6 / 7;
+    grid-row: 1 / 2;
+}
+#latest {
+    background-color: rgb(255, 136, 0);
+    grid-column: 7 / 7;
+    grid-row: 1 / 2;
+}
+
+
+body {
+    background-image: url("bestandenvoorles4/images-6.jpeg"), url("bestandenvoorles4/images-4.jpeg");
+    background-size: 50% 100%;
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
